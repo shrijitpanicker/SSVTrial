@@ -45,7 +45,7 @@ namespace SSVTrial
                 {
                     Application.Run(new SettingsForm());
                 }
-                else if (firstArgument == "/p")      // Preview mode
+                else if (firstArgument == "/p")      // Preview mode This is the second commit
                 {
                     if (secondArgument == null)
                     {
