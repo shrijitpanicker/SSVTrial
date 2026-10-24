@@ -32,7 +32,7 @@ namespace SSVTrial
                 string secondArgument = null;
 
                 // Handle cases where arguments are separated by colon.
-                // Examples: /c:1234567 or /P:1234567
+                // Examples: /c:1234567 or /P:1234567 This is the change I want to track
                 if (firstArgument.Length > 2)
                 {
                     secondArgument = firstArgument.Substring(3).Trim();
@@ -45,7 +45,7 @@ namespace SSVTrial
                 {
                     Application.Run(new SettingsForm());
                 }
-                else if (firstArgument == "/p")      // Preview mode
+                else if (firstArgument == "/p")      // Preview mode This is the second commit
                 {
                     if (secondArgument == null)
                     {
@@ -61,7 +61,7 @@ namespace SSVTrial
                     
                 }
 
-                else if (firstArgument == "/s")      // Full-screen mode
+                else if (firstArgument == "/s")      // Full-screen mode This is the third commit
                 {
                     ShowScreenSaver();
                     Application.Run();
