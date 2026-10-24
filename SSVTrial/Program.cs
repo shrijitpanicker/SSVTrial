@@ -61,7 +61,7 @@ namespace SSVTrial
                     
                 }
 
-                else if (firstArgument == "/s")      // Full-screen mode
+                else if (firstArgument == "/s")      // Full-screen mode This is the third commit
                 {
                     ShowScreenSaver();
                     Application.Run();
